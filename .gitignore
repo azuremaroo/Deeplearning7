@@ -213,3 +213,13 @@ __marimo__/
 /.idea/vcs.xml
 /Scripts/python.exe
 /20250804/best_cats_dogs_classfication_model.h5
+/myenv/Scripts/activate
+/myenv/Scripts/activate.bat
+/myenv/Scripts/Activate.ps1
+/myenv/Scripts/deactivate.bat
+/myenv/Scripts/pip.exe
+/myenv/Scripts/pip3.9.exe
+/myenv/Scripts/pip3.exe
+/myenv/Scripts/python.exe
+/myenv/Scripts/pythonw.exe
+/myenv/pyvenv.cfg
