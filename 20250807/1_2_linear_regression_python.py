@@ -1,22 +1,22 @@
 import matplotlib.pyplot as plt
 
 # ========================== 손실(비용) 함수를 코드로 구현 ==========================
-def cost(x, y, w):
+def cost(x, y, w): # w(가중치)는 x와 y의 관계를 표현하기 위해 추가됨
     c = 0 # 손실의 누적합
     for i in range(len(x)):
         hx = w * x[i] # 레이어(곱셈 하나당 레이어 1개)
         c += (hx - y[i]) ** 2 # 데이터 1개에 대한 손실의 제곱
-    return c / len(x)
+    return c / len(x) # 손실 누적합의 평균
 
 # y = ax + b
 # hx = wx + b
 # y = 1 * x + 0 : x랑 y 가 같을 때 손실 함수
-x = [1, 2, 3]
-y = [1, 2, 3]
-
-print(cost(x, y, w=0))
-print(cost(x, y, w=1))
-print(cost(x, y, w=2))
+# x = [1, 2, 3]
+# y = [1, 2, 3]
+#
+# print(cost(x, y, w=0))
+# print(cost(x, y, w=1))
+# print(cost(x, y, w=2))
 #  ========================== ========================== ==========================
 # ========================== 손실 함수 그래프 ==========================
 def show_cost():
