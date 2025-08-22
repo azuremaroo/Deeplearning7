@@ -1,0 +1,10 @@
+{
+  "name": "Tama",
+  "hunger": 100.0,
+  "happiness": 25.599999999999536,
+  "energy": 12.599999999999957,
+  "cleanliness": 43.39999999999941,
+  "age_minutes": 3.4666666666666592,
+  "alive": false,
+  "sleeping": false
+}
